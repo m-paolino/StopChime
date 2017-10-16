@@ -1,10 +1,16 @@
 #!/bin/bash
 
-logvolume = "/Library/StopChime/stopchime_logvolume"
+logvolume_int="/Library/StopChime/stopchime_logvolume_int"
+logvolume_bool="/Library/StopChime/stopchime_logvolume_bool"
 
 # reading the value stored in stopchime_logvolume
-read value < "$logvolume"
+read value_int < "$logvolume_int"
+read value_bool < "$logvolume_bool"
 
 # restoring the volume state
-if $value>0	then
-	osascript -e 'set volume output volume '$value''
+# if was muted, nothing to do
+# otherwise restore the volume level
+if !$value_bool	then
+	osascript -e 'set volume output muted false'
+	osascript -e 'set volume output volume '$value_int''	
+fi

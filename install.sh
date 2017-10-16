@@ -4,7 +4,8 @@ install_folder="/Library/StopChime/"
 
 loginh="stopchime_login"
 logouth="stopchime_logout"
-logvolume="stopchime_logvolume"
+logvolume_int="stopchime_logvolume_int"
+logvolume_bool="stopchime_logvolume_bool"
 
 # directory containing this installer and the scripts to install.
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
@@ -21,7 +22,8 @@ mkdir -p "$install_folder"
 printf "Copying files...\n"
 
 # create file where the mute state is stored
-sudo touch $install_folder$logvolume
+sudo touch $install_folder$logvolume_int
+sudo touch $install_folder$logvolume_bool
 
 # copy login and logout scripts
 sudo cp "${DIR}/Stuff/$loginh" "$install_folder"
