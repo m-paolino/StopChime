@@ -3,7 +3,7 @@
 logvolume = "/Library/StopChime/stopchime_logvolume"
 
 # storing current state of volume before the shutdown in an external file
-osascript -e 'output volume of (get volume settings)' > "$logvolume"
+osascript -e 'output volume of (get volume settings)' >> "$logvolume"
 
 # setting mute state right before the shutdown
 osascript -e 'set volume output muted true'
