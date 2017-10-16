@@ -18,5 +18,6 @@ printf "Deleting files...\n"
 rm "$install_folder$loginh"
 rm "$install_folder$logouth"
 rm "$install_folder$logvolume"
+rmdir "$install_folder"
 
 printf "Done!\n"
