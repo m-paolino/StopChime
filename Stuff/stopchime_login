@@ -5,8 +5,6 @@ logvolume = "/Library/StopChime/stopchime_logvolume"
 # reading the value stored in stopchime_logvolume
 read value < "$logvolume"
 
-# determine whether the computer was muted before the shutdown
-# if muted, unmute and then set the previous volume state
-# otherwise don't do nothing
+# restoring the volume state
 if $value>0	then
 	osascript -e 'if set volume output volume '$value''
