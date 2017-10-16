@@ -1,0 +1,15 @@
+#!bin/bash
+
+logvolume = "/Library/StopChime/stopchime_logvolume"
+
+# reading the value stored in stopchime_logvolume
+read value < "$logvolume"
+
+# determine whether the computer was muted before the shutdown
+# if muted, unmute and then set the previous volume state
+# otherwise keep muted
+if $value>0	then
+	osascript -e 'set volume output muted false'
+	osascript -e 'set volume output volume '$value''
+else
+	osascript -e 'set volume output muted true'
