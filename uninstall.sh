@@ -1,10 +1,10 @@
 #!/bin/bash
 
-install_folder = "/Library/StopChime/"
+install_folder="/Library/StopChime/"
 
-loginh = "stopchime_login"
-logouth = "stopchime_logout"
-logvolume = "stopchime_logvolume"
+loginh="stopchime_login"
+logouth="stopchime_logout"
+logvolume="stopchime_logvolume"
 
 # administrative privileges
 if [ "$(id -u)" != "0" ]; then
