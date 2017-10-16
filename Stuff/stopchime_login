@@ -10,7 +10,9 @@ read value_bool < "$logvolume_bool"
 # restoring the volume state
 # if was muted, nothing to do
 # otherwise restore the volume level
-if !$value_bool	then
+if [ !"$value_bool" ]; then
 	osascript -e 'set volume output muted false'
-	osascript -e 'set volume output volume '$value_int''	
+	osascript -e 'set volume output volume '$value_int''
+else
+	osascript -e 'set volume output muted true'
 fi

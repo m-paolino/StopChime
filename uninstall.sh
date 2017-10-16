@@ -4,7 +4,8 @@ install_folder="/Library/StopChime/"
 
 loginh="stopchime_login"
 logouth="stopchime_logout"
-logvolume="stopchime_logvolume"
+logvolume_int="stopchime_logvolume_int"
+logvolume_bool="stopchime_logvolume_bool"
 
 printf "Removing hooks...\n"
 
@@ -17,7 +18,8 @@ printf "Deleting files...\n"
 # deleting login, logout and logvolume scripts
 rm "$install_folder$loginh"
 rm "$install_folder$logouth"
-rm "$install_folder$logvolume"
+rm "$install_folder$logvolume_int"
+rm "$install_folder$logvolume_bool"
 rmdir "$install_folder"
 
 printf "Done!\n"
