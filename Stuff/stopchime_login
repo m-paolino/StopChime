@@ -7,4 +7,4 @@ read value < "$logvolume"
 
 # restoring the volume state
 if $value>0	then
-	osascript -e 'if set volume output volume '$value''
+	osascript -e 'set volume output volume '$value''
