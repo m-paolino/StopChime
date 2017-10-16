@@ -6,12 +6,6 @@ loginh="stopchime_login"
 logouth="stopchime_logout"
 logvolume="stopchime_logvolume"
 
-# administrative privileges
-if [ "$(id -u)" != "0" ]; then
-	printf "You need administrative privileges to run this script.\nPlease run: sudo ./uninstall.sh\n"
-	exit 1
-fi
-
 printf "Removing hooks...\n"
 
 # removing login and logout hooks
