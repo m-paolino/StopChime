@@ -33,7 +33,7 @@ sudo cp "${DIR}/Stuff/$logouth" "$install_folder"
 sudo chmod +x "$install_folder$loginh"
 sudo chmod +x "$install_folder$logouth"
 
-printf "Registering hooks: '$stopchime_logout' and '$stopchime_login'\n"
+printf "Registering hooks: '$logouth' and '$loginh'\n"
 
 # register the scripts as hooks
 defaults write com.apple.loginwindow LoginHook  "$install_folder$loginh"

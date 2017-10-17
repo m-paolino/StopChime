@@ -7,7 +7,7 @@ logouth="stopchime_logout"
 logvolume_int="stopchime_logvolume_int"
 logvolume_bool="stopchime_logvolume_bool"
 
-printf "Removing hooks: '$stopchime_logout' and '$stopchime_login'\n"
+printf "Removing hooks: '$logouth' and '$loginh'\n"
 
 # removing login and logout hooks
 defaults delete com.apple.loginwindow LoginHook
@@ -22,4 +22,4 @@ rm "$install_folder$logvolume_int"
 rm "$install_folder$logvolume_bool"
 rmdir "$install_folder"
 
-printf "Done! Uninstall terminated"
+printf "Done! Uninstallation terminated\n"
