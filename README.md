@@ -30,13 +30,15 @@ That's very annoying but don't worry!
 - [To Do](#to-do)
 - [Licence](#license)
 
-## So what's that thing? :point_left: <a name="intro"></a>
+<a name="intro"></a>
+## So what's that thing? :point_left:
 
 Avoiding getting into technical details...in short, it's *a doable solution to automatically silence the boot sound of Mac before shutdown.*
 
 NOTE: below you can find the installation manual or just by clicking [here](#installation-steps)
 
-## But how it works? :sunglasses: <a name="how"></a>
+<a name="how"></a>
+## But how it works? :sunglasses:
 
 The only effective way of disabling the boot sound, without resorting to hacks, is to mute the Mac right before shutting it off. All of that will be automated by a very simple script! It also restores the volume state after the next login.
 
