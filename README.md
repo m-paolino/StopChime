@@ -94,7 +94,6 @@ No personal information will be saved. :see_no_evil:
 
 ## TO-DO
 
-- [ ] fill Wiki page
 - [ ] integrate the script in an intuitive desktop app using [Electron](https://electron.atom.io)
 
 ## License
