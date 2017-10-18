@@ -100,4 +100,4 @@ No personal information will be saved. :see_no_evil:
 
 ## License
 
-This project is licensed under the terms of the MIT [MIT license](LICENSE)
+This project is licensed under the terms of the [MIT license](LICENSE)
