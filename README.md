@@ -21,7 +21,9 @@
 
 -----
 
-How many times has bothered you the usual startup sound of your Mac? :weary: Or did you forget to silence it before the shutdown? :persevere:
+How many times has bothered you the usual startup sound of your Mac? :weary:
+<br>
+Or did you forget to silence it before the shutdown? :persevere:
 
 That's very annoying but don't worry!
 
