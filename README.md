@@ -1,15 +1,23 @@
 <h1 align="center">
-  StopChime :hand: :speaker: :no_entry_sign:
+	StopChime :hand: :speaker: :no_entry_sign:
 </h1>
-<h4 align="center">The best way to mute the boot sound of your Mac</h4>
 
+<h4 align="center">
+	The best way to mute the boot sound of your Mac
+</h4>
 
 <p align="center">
-	<a href="https://github.com/m-paolino/StopChime/releases/latest" target="_blank"> <img src="https://img.shields.io/github/release/m-paolino/StopChime.svg" alt="Release"> </a>
-	<a href="https://opensource.org/licenses/MIT" target="_blank"> <img src="https://img.shields.io/github/license/m-paolino/StopChime.svg" alt="GNU GPL v3"> </a>
+	<a href="https://github.com/m-paolino/StopChime/releases/latest" target="blank">
+	<img src="https://img.shields.io/github/release/m-paolino/StopChime.svg" alt="Release">
+	</a>
+	<a href="https://opensource.org/licenses/MIT" target="blank">
+	<img src="https://img.shields.io/github/license/m-paolino/StopChime.svg" alt="GNU GPL v3">
+	</a>
 </p>
 
-<h5 align="center">Available for Mac 10.3 or higher :exclamation: </h5>
+<h5 align="center">
+	Available for Mac 10.3 or higher :exclamation:
+</h5>
 
 -----
 
