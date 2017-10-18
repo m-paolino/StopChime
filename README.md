@@ -53,13 +53,13 @@ The only effective way of disabling the boot sound, without resorting to hacks, 
 So with StopChime, you can forget to silence your Mac getting rid of the boot sound!
 Now keep calm and do not worry if you are in a classroom, or library and other places where silence is golden! :sweat_smile:
 
-If you want to know technical details about the script, do not hesitate to look at :point_right: the [Wiki page](https://github.com/m-paolino/StopChime/wiki)
+If you want to know technical details about the script, do not hesitate to look at the :point_right: [Wiki page](https://github.com/m-paolino/StopChime/wiki)
 
 NOTE: unfortunately it does not work when external speakers are connected (I will work on it!)
 
 ## Manuals
 
-Here you will find instructions to install or (if you want to) uninstall the script.
+Here you will find instructions to install or (if you want) to uninstall the script.
 
 ### Installation steps:
 
@@ -69,7 +69,7 @@ NOTE: You can find the download link at "release" panel or just by clicking [her
 
 1. **Unzip** the downloaded file.
 2. Open **Terminal.app** in your Mac. It should be reached by typing it on spotlight.
-3. Via Terminal.app **go to directory containing the script**. To perform this operation just type `cd dir` where instead of "dir" you have to input the path of folder that contains the script - e.g. `cd Downloads/StopChime-master`
+3. Via Terminal.app **go to directory containing the script**. To perform this operation just type `cd dir` where instead of "dir" you have to input the path of folder that contains the script - e.g. `cd Downloads/StopChime-1.0`
 4. To **install the script**, run the following command:
 >sudo sh install.sh
 5. After installation process you can **close the Terminal window** and...enjoy the new life! :smiley:
@@ -78,10 +78,10 @@ NOTE: It will be necessary to input your password in order to execute the script
 
 ### Uninstallation steps:
 
-NOTE: In case you have already deleted the downloaded folder, you have to re-download it and unzip it [see above]
+NOTE: In case you have already deleted the downloaded folder, you have to re-download it and unzip it [see above :point_up:]
 
 1. Open **Terminal.app** in your Mac. It should be reached by typing it on spotlight.
-2. Via Terminal.app **go to directory containing the script**. To perform this operation just type `cd dir` where instead of "dir" you have to input the path of folder that contains the script - e.g. `cd Desktop/StopChime-1.0`
+2. Via Terminal.app **go to directory containing the script**. To perform this operation just type `cd dir` where instead of "dir" you have to input the path of folder that contains the script - e.g. `cd Downloads/StopChime-1.0`
 3. To **uninstall the script**, run the following command:
 >sudo sh uninstall.sh
 5. After uninstallation process you can **close the Terminal window** and...be careful of boot sound at next login! :rage:
