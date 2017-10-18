@@ -28,7 +28,7 @@ That's very annoying but don't worry!
 	- [Uninstall script](#uninstallation-steps)
 - [Privacy](#privacy)
 - [To Do](#to-do)
-- [Licence](#license)
+- [License](#license)
 
 <a name="intro"></a>
 ## So what's that thing? :point_left:
