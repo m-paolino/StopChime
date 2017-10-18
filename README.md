@@ -55,6 +55,8 @@ Now keep calm and do not worry if you are in a classroom, or library and other p
 
 If you want to know technical details about the script, do not hesitate to look at :point_right: the [Wiki page](https://github.com/m-paolino/StopChime/wiki)
 
+NOTE: unfortunately it does not work when external speakers are connected (I will work on it!)
+
 ## Manuals
 
 Here you will find instructions to install or (if you want to) uninstall the script.
