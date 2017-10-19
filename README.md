@@ -71,7 +71,7 @@ NOTE: You can find the download link at "release" panel or just by clicking [her
 
 1. **Unzip** the downloaded file.
 2. Open **Terminal.app** in your Mac. It should be reached by typing it on spotlight.
-3. Via Terminal.app **go to directory containing the script**. To perform this operation just type `cd dir` where instead of "dir" you have to input the path of folder that contains the script - e.g. `cd Downloads/StopChime-1.0`
+3. Via Terminal.app **go to directory containing the script**. To perform this operation just type `cd dir` where instead of `dir` you have to input the path of folder that contains the script - e.g. `cd Downloads/StopChime-1.0`
 4. To **install the script**, run the following command:
 >sudo sh install.sh
 5. After installation process you can **close the Terminal window** and...enjoy the new life! :smiley:
