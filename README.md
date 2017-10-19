@@ -16,7 +16,7 @@
 </p>
 
 <h5 align="center">
-	Available for Mac 10.3 or higher :exclamation:
+	Available for Mac OS X 10.3 or later :exclamation:
 </h5>
 
 -----
@@ -83,7 +83,7 @@ NOTE: It will be necessary to input your password in order to execute the script
 NOTE: In case you have already deleted the downloaded folder, you have to re-download it and unzip it [see above :point_up:]
 
 1. Open **Terminal.app** in your Mac. It should be reached by typing it on spotlight.
-2. Via Terminal.app **go to directory containing the script**. To perform this operation just type `cd dir` where instead of "dir" you have to input the path of folder that contains the script - e.g. `cd Downloads/StopChime-1.0`
+2. Via Terminal.app **go to directory containing the script**. To perform this operation just type `cd dir` where instead of `dir` you have to input the path of folder that contains the script - e.g. `cd Downloads/StopChime-1.0`
 3. To **uninstall the script**, run the following command:
 >sudo sh uninstall.sh
 5. After uninstallation process you can **close the Terminal window** and...be careful of boot sound at next login! :rage:
