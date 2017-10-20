@@ -75,7 +75,7 @@ NOTE: You can find the download link on the [releases](https://github.com/m-paol
 
 1. **Unzip** the downloaded file.
 2. Open **Terminal.app** on your Mac. You can reach it by typing it in on Spotlight.
-3. Via Terminal.app **go to the directory containing the script**. To perform this operation, just type `cd dir` where instead of `dir` you have to input the path of folder that contains the script - e.g. `cd Downloads/StopChime-1.0.1`
+3. Via Terminal.app **go to the directory containing the script**. To perform this operation, just type `cd dir` where instead of `dir` you have to input the path of folder that contains the script - e.g. `cd Downloads/StopChime`
 4. To **install the script**, run the following command:
 >sudo bash install
 5. After the installation process you can **close the Terminal window** and...enjoy the beginning of a new life! :smiley:
@@ -87,7 +87,7 @@ NOTE: It will be necessary to insert your password in order to execute the insta
 NOTE: If you have already deleted the downloaded folder or you do not remember where you put it, you have to re-download it and then unzip it (see [above](#above) :point_up:)
 
 1. Open **Terminal.app** on your Mac. You can reach it by typing it in on Spotlight.
-2. Via Terminal.app **go to the directory containing the script**. To perform this operation, just type `cd dir` where instead of `dir` you have to input the path of folder that contains the script - e.g. `cd Downloads/StopChime-1.0.1`
+2. Via Terminal.app **go to the directory containing the script**. To perform this operation, just type `cd dir` where instead of `dir` you have to input the path of folder that contains the script - e.g. `cd Downloads/StopChime`
 3. To **uninstall the script**, run the following command:
 >sudo bash uninstall
 5. After the uninstallation process you can **close the Terminal window** and...expect your usual boot sound at the next login! :rage:
