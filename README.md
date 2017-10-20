@@ -73,7 +73,7 @@ Here you will find instructions to install or (if you want) to uninstall the scr
 
 First of all, download the script.
 
-NOTE: You can find the download link at `releases` panel or just by clicking [here](https://github.com/m-paolino/StopChime/releases/download/v1.0/StopChime-1.0.zip)
+NOTE: You can find the download link at [releases](https://github.com/m-paolino/StopChime/releases) panel or just by clicking [here](https://github.com/m-paolino/StopChime/releases/download/v1.0.1/StopChime-1.0.1.zip)
 
 1. **Unzip** the downloaded file.
 2. Open **Terminal.app** in your Mac. It should be reached by typing it on Spotlight.
