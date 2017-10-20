@@ -77,7 +77,7 @@ NOTE: You can find the download link at [releases](https://github.com/m-paolino/
 
 1. **Unzip** the downloaded file.
 2. Open **Terminal.app** in your Mac. It should be reached by typing it on Spotlight.
-3. Via Terminal.app **go to the directory containing the script**. To perform this operation, just type `cd dir` where instead of `dir` you have to input the path of folder that contains the script - e.g. `cd Downloads/StopChime-1.0`
+3. Via Terminal.app **go to the directory containing the script**. To perform this operation, just type `cd dir` where instead of `dir` you have to input the path of folder that contains the script - e.g. `cd Downloads/StopChime-1.0.1`
 4. To **install the script**, run the following command:
 >sudo bash install
 5. After installation process you can **close the Terminal window** and...enjoy the new life! :smiley:
@@ -89,7 +89,7 @@ NOTE: It will be necessary to input your password in order to execute the instal
 NOTE: If you have already deleted the downloaded folder or you don't remember where you put it, you should re-download it and then unzip it [see above :point_up:]
 
 1. Open **Terminal.app** in your Mac. It should be reached by typing it on Spotlight.
-2. Via Terminal.app **go to the directory containing the script**. To perform this operation, just type `cd dir` where instead of `dir` you have to input the path of folder that contains the script - e.g. `cd Downloads/StopChime-1.0`
+2. Via Terminal.app **go to the directory containing the script**. To perform this operation, just type `cd dir` where instead of `dir` you have to input the path of folder that contains the script - e.g. `cd Downloads/StopChime-1.0.1`
 3. To **uninstall the script**, run the following command:
 >sudo bash uninstall
 5. After uninstallation process you can **close the Terminal window** and...remember of the boot sound at the next login! :rage:
