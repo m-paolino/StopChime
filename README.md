@@ -21,19 +21,13 @@
 
 -----
 
-How many times has your Mac's startup sound bothered you? :persevere:
+How often does the startup sound of your Mac bother you? :persevere:
 <br>
-Or how many times did you forget to silence it before the shutdown? :weary:
+How many times do you forget to silence your Mac before shutting it down, getting caught in awkward quiet moments where you don't want to be noisy? :weary:
 
-We know how frustrating that can be, especially when you are in situations where you know you want to be QUIET!
+We understand how frustrating that can be, but no worries!
 
-We have the solution to your problems.
-
->**StopChime** has been created, just for YOU! :top:
-
-Be ready for a more peaceful, quiet Mac.
-<br>
-Be ready for a peaceful life!
+>**StopChime** has been made JUST FOR YOU to grant you a better, more peaceful life. :top:
 
 ## Table of Contents
 
@@ -47,54 +41,58 @@ Be ready for a peaceful life!
 - [License](#license)
 
 <a name="intro"></a>
-## So what's that thing? :point_left:
+## So what is *StopChime*? :point_left:
 
-I'll try to avoid getting into technical details...in short, it's *a doable solution to automatically silence the boot sound of Mac before shutdown.*
+Putting all technical details aside, **StopChime** automatically silences the boot sound of your  Mac before its shutdown.
 
-NOTE: below you can find the installation manual or just by clicking [here](#installation-steps)
+NOTE: Please find the installation manual below or you can install by simply clicking [here](#installation-steps)
 
 <a name="how"></a>
-## But how it works? :sunglasses:
+## But how does it work? :sunglasses:
 
-The only effective way of disabling the boot sound, without resorting to hacks, is to mute the Mac right before shutting it off. All of that will be automated by a very simple script! It also restores the volume state after the next login.
+The only effective way of disabling the boot sound, without resorting to hacks, is to mute the Mac right before shutting it off. **StopChime** automates this process with a very simple script!
+<br>
+Additionally the script restores the volume settings once you log into your Mac.
 
-So with StopChime, you can forget to silence your Mac getting rid of the boot sound!
-Now keep calm and do not worry if you are in a classroom, or library and other places where silence is golden! :sweat_smile:
+So with StopChime you can forget about silencing your Mac, and get rid of the boot sound!
+<br>
+Now you can chill and stop worrying if you are in a classroom, library or any other place where silence is golden! :sweat_smile:
 
 If you want to know technical details about the script, take a look at the :point_right: [Wiki page](https://github.com/m-paolino/StopChime/wiki)
 
-NOTE: unfortunately it does not work when external speakers are connected (I'm working on it!)
+NOTE: unfortunately it does not work when external speakers are connected (I am working on it!)
 
 ## Manuals
 
-Here you will find instructions to install or (if you want) to uninstall the script.
+Here you will find instructions to install and (if you want) to uninstall the script.
 
 ### Installation steps:
 
 First of all, download the script.
 
-NOTE: You can find the download link at [releases](https://github.com/m-paolino/StopChime/releases) panel or just by clicking [here](https://github.com/m-paolino/StopChime/releases/download/v1.0.1/StopChime-1.0.1.zip)
+<a name="above"></a>
+NOTE: You can find the download link on the [releases](https://github.com/m-paolino/StopChime/releases) panel or just by clicking [here](https://github.com/m-paolino/StopChime/releases/download/v1.0.1/StopChime-1.0.1.zip)
 
 1. **Unzip** the downloaded file.
-2. Open **Terminal.app** in your Mac. It should be reached by typing it on Spotlight.
+2. Open **Terminal.app** on your Mac. You can reach it by typing it in on Spotlight.
 3. Via Terminal.app **go to the directory containing the script**. To perform this operation, just type `cd dir` where instead of `dir` you have to input the path of folder that contains the script - e.g. `cd Downloads/StopChime-1.0.1`
 4. To **install the script**, run the following command:
 >sudo bash install
-5. After installation process you can **close the Terminal window** and...enjoy the new life! :smiley:
+5. After the installation process you can **close the Terminal window** and...enjoy the beginning of a new life! :smiley:
 
-NOTE: It will be necessary to input your password in order to execute the installer script with administrative privileges.
+NOTE: It will be necessary to insert your password in order to execute the installer script with administrative privileges.
 
 ### Uninstallation steps:
 
-NOTE: If you have already deleted the downloaded folder or you don't remember where you put it, you should re-download it and then unzip it [see above :point_up:]
+NOTE: If you have already deleted the downloaded folder or you do not remember where you put it, you have to re-download it and then unzip it (see [above](#above) :point_up:)
 
-1. Open **Terminal.app** in your Mac. It should be reached by typing it on Spotlight.
+1. Open **Terminal.app** on your Mac. You can reach it by typing it in on Spotlight.
 2. Via Terminal.app **go to the directory containing the script**. To perform this operation, just type `cd dir` where instead of `dir` you have to input the path of folder that contains the script - e.g. `cd Downloads/StopChime-1.0.1`
 3. To **uninstall the script**, run the following command:
 >sudo bash uninstall
-5. After uninstallation process you can **close the Terminal window** and...remember of the boot sound at the next login! :rage:
+5. After the uninstallation process you can **close the Terminal window** and...expect your usual boot sound at the next login! :rage:
 
-NOTE: It will be necessary to input your password in order to execute the uninstaller script with administrative privileges.
+NOTE: It will be necessary to insert your password in order to execute the uninstaller script with administrative privileges.
 
 ## Privacy
 
