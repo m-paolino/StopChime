@@ -11,9 +11,13 @@ logvolume_bool="stopchime_logvolume_bool"
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # administrative privileges
-if [ "$(id -u)" != "0" ]; then
+if [ "$(id -u)" != "0" ]
+
+then
+
 	printf "You need administrative privileges to run this script.\nPlease run: sudo bash install\n"
 	exit 1
+
 fi
 
 # create installation folder if it doesn't already exists.
