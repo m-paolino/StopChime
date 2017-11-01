@@ -58,6 +58,8 @@ So with StopChime you can forget about silencing your Mac, and get rid of the bo
 <br>
 Now you can chill and stop worrying if you are in a classroom, library or any other place where silence is golden! :sweat_smile:
 
+If you want to know technical details about the script, take a look at the :point_right: [Wiki page](https://github.com/m-paolino/StopChime/wiki)
+
 NOTE: unfortunately it does not work when external speakers are connected (I am working on it!)
 
 ## Manuals
