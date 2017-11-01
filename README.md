@@ -69,7 +69,7 @@ Here you will find instructions to install and (if you want) to uninstall the sc
 First of all, download the script.
 
 <a name="above"></a>
-NOTE: You can find the download link on the [releases](https://github.com/m-paolino/StopChime/releases) panel or just by clicking [here](https://github.com/m-paolino/StopChime/releases/download/v1.0.1/StopChime.zip)
+NOTE: You can find the download link on the [releases](https://github.com/m-paolino/StopChime/releases) panel or just by clicking [here](https://github.com/m-paolino/StopChime/releases/download/v1.0.2/StopChime.zip)
 
 1. **Unzip** the downloaded file.
 2. Open **Terminal.app** on your Mac. You can reach it by typing it in on Spotlight.
