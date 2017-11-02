@@ -8,7 +8,7 @@
 
 <p align="center">
 	<a href="https://github.com/m-paolino/StopChime/releases/latest" target="blank">
-	<img src="https://img.shields.io/github/release/m-paolino/StopChime.svg" alt="Release">
+	<img src="https://img.shields.io/badge/Latest_release-v1.0.2-brightgreen.svg" alt="Release">
 	</a>
 	<a href="https://opensource.org/licenses/MIT" target="blank">
 	<img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT">
