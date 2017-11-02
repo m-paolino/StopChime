@@ -11,7 +11,7 @@
 	<img src="https://img.shields.io/github/release/m-paolino/StopChime.svg" alt="Release">
 	</a>
 	<a href="https://opensource.org/licenses/MIT" target="blank">
-	<img src="https://img.shields.io/github/license/m-paolino/StopChime.svg" alt="MIT">
+	<img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT">
 	</a>
 </p>
 
