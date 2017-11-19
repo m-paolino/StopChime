@@ -37,7 +37,6 @@ We understand how frustrating that can be, but no worries!
 	- [Install script](#installation-steps)
 	- [Uninstall script](#uninstallation-steps)
 - [Privacy](#privacy)
-- [To Do](#to-do)
 - [License](#license)
 
 <a name="intro"></a>
@@ -97,10 +96,6 @@ NOTE: It will be necessary to insert your password in order to execute the unins
 ## Privacy
 
 No personal information will be saved. :see_no_evil:
-
-## TO-DO
-
-- [ ] integrate the script in an intuitive desktop app using [Electron](https://electron.atom.io)
 
 ## License
 
