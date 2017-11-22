@@ -1,17 +1,22 @@
 <h1 align="center">
-	StopChime :hand: :speaker: :no_entry_sign:
+	<br>
+	<img src="Icons/bell.png" width=64px alt="StopChime">
+	<br>
+	StopChime
+	<br>
 </h1>
 
 <h4 align="center">
-	The best way to mute the boot sound of your Mac
+	The best way to mute the boot sound of your Mac :hand: :speaker: :no_entry_sign:
 </h4>
 
 <p align="center">
-	<a href="https://github.com/m-paolino/StopChime/releases/latest" target="blank">
-	<img src="https://img.shields.io/badge/Latest_release-v1.0.2-brightgreen.svg" alt="Release">
+	<a href="https://github.com/m-paolino/StopChime/releases/latest">
+	<img src="https://img.shields.io/badge/Latest_release-v2.0-brightgreen.svg" alt="Latest release">
 	</a>
-	<a href="https://opensource.org/licenses/MIT" target="blank">
-	<img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT">
+	<img src="https://img.shields.io/badge/Release_date-November_2017-blue.svg" alt="Release date">
+	<a href="https://opensource.org/licenses/MIT">
+	<img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT license">
 	</a>
 </p>
 
@@ -36,6 +41,7 @@ We understand how frustrating that can be, but no worries!
 - [Manuals](#manuals)
 	- [Install script](#installation-steps)
 	- [Uninstall script](#uninstallation-steps)
+- [Milestones](#milestones)
 - [Privacy](#privacy)
 - [License](#license)
 
@@ -44,7 +50,7 @@ We understand how frustrating that can be, but no worries!
 
 Putting all technical details aside, **StopChime** automatically silences the boot sound of your  Mac before its shutdown.
 
-NOTE: Please find the installation manual below or you can install by simply clicking [here](#installation-steps)
+NOTE: Please find the installation manual below or by simply clicking [here](#installation-steps).
 
 <a name="how"></a>
 ## But how does it work? :sunglasses:
@@ -65,31 +71,28 @@ Here you will find instructions to install and (if you want) to uninstall the sc
 
 ### Installation steps:
 
-First of all, download the script.
-
-<a name="above"></a>
-NOTE: You can find the download link on the [releases](https://github.com/m-paolino/StopChime/releases) panel or just by clicking [here](https://github.com/m-paolino/StopChime/releases/download/v1.0.2/StopChime.zip)
+You can find the download link on the [releases](https://github.com/m-paolino/StopChime/releases/latest) panel or just by clicking [here](https://github.com/m-paolino/StopChime/releases/download/v2.0/StopChime.zip).
 
 1. **Unzip** the downloaded file.
-2. Open **Terminal.app** on your Mac. You can reach it by typing it in on Spotlight.
-3. Via Terminal.app **go to the directory containing the script**. To perform this operation, just type `cd dir` where instead of `dir` you have to input the path of folder that contains the script - e.g. `cd Downloads/StopChime`
-4. To **install the script**, run the following command:
->sudo bash install
-5. After the installation process you can **close the Terminal window** and...enjoy the beginning of a new life! :smiley:
+2. Open the extracted file **StopChime.app**.
+3. At the end of the installation process, you can exit the app.
 
-NOTE: It will be necessary to insert your password in order to execute the installer script with administrative privileges.
+NOTE: It will be necessary to insert your password in order to execute the installer script with root privileges.
 
 ### Uninstallation steps:
 
-NOTE: If you have already deleted the downloaded folder or you do not remember where you put it, you have to re-download it and then unzip it (see [above](#above) :point_up:)
+You can download the uninstaller [here](https://github.com/m-paolino/StopChime/releases/download/v2.0/UNStopChime.zip).
 
-1. Open **Terminal.app** on your Mac. You can reach it by typing it in on Spotlight.
-2. Via Terminal.app **go to the directory containing the script**. To perform this operation, just type `cd dir` where instead of `dir` you have to input the path of folder that contains the script - e.g. `cd Downloads/StopChime`
-3. To **uninstall the script**, run the following command:
->sudo bash uninstall
-5. After the uninstallation process you can **close the Terminal window** and...expect your usual boot sound at the next login! :rage:
+1. **Unzip** the downloaded file.
+2. Open the extracted file **UNStopChime.app**.
+3. At the end of the process, you can exit the app.
 
 NOTE: It will be necessary to insert your password in order to execute the uninstaller script with administrative privileges.
+
+## Milestones
+
+- [x] v1.0 - first release
+- [x] v2.0 - script bundled with [Platypus](https://www.sveinbjorn.org/platypus)
 
 ## Privacy
 
