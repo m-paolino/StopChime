@@ -1,26 +1,36 @@
-#!/bin/bash
+#!/bin/sh
 
+# useful variables
 install_folder="/Library/StopChime/"
-
 loginh="stopchime_login"
 logouth="stopchime_logout"
 logvolume_int="stopchime_logvolume_int"
 logvolume_bool="stopchime_logvolume_bool"
 
+echo "PROGRESS:0"
+echo "Running the UNinstaller with root privileges..."
+
+sleep 2
+
 if [ -d "$install_folder" ]
 
 then
 
-	printf "Scripts found\n"
+	echo "PROGRESS:20"
+	echo "Scripts found"
 
-	printf "Removing hooks: '$logouth' and '$loginh'\n"
+	sleep 1
 
+	echo "PROGRESS:45"
+	echo "Removing hooks: '$logouth' and '$loginh'"
 	# removing login and logout hooks
 	defaults delete com.apple.loginwindow LoginHook
 	defaults delete com.apple.loginwindow LogoutHook
 
-	printf "Deleting files from '$install_folder'\n"
+	sleep 2
 
+	echo "PROGRESS:60"
+	echo "Deleting files from '$install_folder'"
 	# deleting login, logout and logvolume scripts
 	rm "$install_folder$loginh"
 	rm "$install_folder$logouth"
@@ -28,8 +38,24 @@ then
 	rm "$install_folder$logvolume_bool"
 	rmdir "$install_folder"
 
-	printf "Done! Uninstallation terminated\n"
+	sleep 2
+
+	echo "PROGRESS: 85"
+	echo "Finishing..."
+
+	sleep 1
+
+	echo "PROGRESS:100"
+	echo "Uninstallation process succefully completed!"
+
+	sleep 1
+
+	echo "DETAILS:HIDE"
+
+	echo "Done! Now you can quit"
 
 else
-	echo "Scripts NOT found"
+	echo "PROGRESS:100"
+	echo "DETAILS:HIDE"
+	echo "Scripts NOT found!"
 fi

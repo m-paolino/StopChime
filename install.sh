@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/sh
 
+# useful variables
 install_folder="/Library/StopChime/"
-
 loginh="stopchime_login"
 logouth="stopchime_logout"
 logvolume_int="stopchime_logvolume_int"
@@ -10,37 +10,59 @@ logvolume_bool="stopchime_logvolume_bool"
 # directory containing this installer and the scripts to install.
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-# administrative privileges
-if [ "$(id -u)" != "0" ]
+echo "PROGRESS:0"
+echo "Running the installer with root privileges..."
 
-then
+sleep 2
 
-	printf "You need administrative privileges to run this script.\nPlease run: sudo bash install\n"
-	exit 1
-
-fi
-
+echo "Creating installation folder"
 # create installation folder if it doesn't already exists.
 mkdir -p "$install_folder"
 
-printf "Copying files into '$install_folder'\n"
+sleep 1
 
+echo "PROGRESS:10"
+echo "Copying files into '$install_folder'"
 # create file where the mute state is stored
 sudo touch $install_folder$logvolume_int
 sudo touch $install_folder$logvolume_bool
 
+sleep 1
+
+echo "PROGRESS:25"
+echo "Copying '$logouth' and '$loginh' scripts"
 # copy login and logout scripts
 sudo cp "${DIR}/Stuff/$loginh" "$install_folder"
 sudo cp "${DIR}/Stuff/$logouth" "$install_folder"
 
+sleep 1
+
+echo "PROGRESS:40"
+echo "Making scripts executable"
 # make them executable
 sudo chmod +x "$install_folder$loginh"
 sudo chmod +x "$install_folder$logouth"
 
-printf "Registering hooks: '$logouth' and '$loginh'\n"
+sleep 2
 
+echo "PROGRESS:60"
+echo "Registering scripts as hooks"
 # register the scripts as hooks
 defaults write com.apple.loginwindow LoginHook  "$install_folder$loginh"
 defaults write com.apple.loginwindow LogoutHook "$install_folder$logouth"
 
-printf "Well done! Installation process succefully completed\n"
+sleep 2
+
+echo "PROGRESS: 85"
+echo "Finishing..."
+
+sleep 1
+
+echo "PROGRESS:100"
+echo "Installation process succefully completed!"
+
+sleep 1
+
+echo "DETAILS:HIDE"
+
+echo "Done! Now you can quit"
