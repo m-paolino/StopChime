@@ -12,9 +12,10 @@
 
 <p align="center">
 	<a href="https://github.com/m-paolino/StopChime/releases/latest">
-	<img src="https://img.shields.io/badge/Latest_release-v2.0-brightgreen.svg" alt="Latest release">
+	<img src="https://img.shields.io/badge/Latest_release-v2.0.1-brightgreen.svg" alt="Latest release">
 	</a>
-	<img src="https://img.shields.io/badge/Release_date-November_2017-blue.svg" alt="Release date">
+	<img src="https://img.shields.io/badge/Release_date-December_2017-blue.svg" alt="Release date">
+	<img src="https://img.shields.io/badge/Platform-OS X 10.3.x or later-lightgrey.svg" alt="Release date">
 	<a href="https://opensource.org/licenses/MIT">
 	<img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT license">
 	</a>
@@ -71,7 +72,7 @@ Here you will find instructions to install and (if you want) to uninstall the sc
 
 ### Installation steps:
 
-You can find the download link on the [releases](https://github.com/m-paolino/StopChime/releases/latest) panel or just by clicking [here](https://github.com/m-paolino/StopChime/releases/download/v2.0/StopChime.zip).
+You can find the download link on the [releases](https://github.com/m-paolino/StopChime/releases/latest) panel or just by clicking [here](https://github.com/m-paolino/StopChime/releases/download/v2.0.1/StopChime.zip).
 
 1. **Unzip** the downloaded file.
 2. Open the extracted file **StopChime.app**.
@@ -81,7 +82,7 @@ NOTE: It will be necessary to insert your password in order to execute the insta
 
 ### Uninstallation steps:
 
-You can download the uninstaller [here](https://github.com/m-paolino/StopChime/releases/download/v2.0/UNStopChime.zip).
+You can download the uninstaller [here](https://github.com/m-paolino/StopChime/releases/download/v2.0.1/UNStopChime.zip).
 
 1. **Unzip** the downloaded file.
 2. Open the extracted file **UNStopChime.app**.
