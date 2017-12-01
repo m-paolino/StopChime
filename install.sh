@@ -22,26 +22,26 @@ mkdir -p "$install_folder"
 sleep 1
 
 echo "PROGRESS:10"
-echo "Copying files into '$install_folder'"
+echo "Copying mute state into '$install_folder'"
 # create file where the mute state is stored
-sudo touch $install_folder$logvolume_int
-sudo touch $install_folder$logvolume_bool
+touch "$install_folder$logvolume_int"
+touch "$install_folder$logvolume_bool"
 
 sleep 1
 
 echo "PROGRESS:25"
 echo "Copying '$logouth' and '$loginh' scripts"
 # copy login and logout scripts
-sudo cp "${DIR}/Stuff/$loginh" "$install_folder"
-sudo cp "${DIR}/Stuff/$logouth" "$install_folder"
+cp "${DIR}/Stuff/$loginh" "$install_folder"
+cp "${DIR}/Stuff/$logouth" "$install_folder"
 
 sleep 1
 
 echo "PROGRESS:40"
 echo "Making scripts executable"
 # make them executable
-sudo chmod +x "$install_folder$loginh"
-sudo chmod +x "$install_folder$logouth"
+chmod +x "$install_folder$loginh"
+chmod +x "$install_folder$logouth"
 
 sleep 2
 
