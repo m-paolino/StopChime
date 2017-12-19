@@ -15,8 +15,8 @@
 	<img src="https://img.shields.io/badge/Latest_release-v2.0.1-brightgreen.svg" alt="Latest release">
 	</a>
 	<img src="https://img.shields.io/badge/Release_date-December_2017-blue.svg" alt="Release date">
-	<img src="https://img.shields.io/badge/Platform-OS X 10.3.x or later-lightgrey.svg" alt="Release date">
-	<a href="https://opensource.org/licenses/MIT">
+	<img src="https://img.shields.io/badge/Platform-OS X 10.3.x or later-lightgrey.svg" alt="Platform">
+	<a href="https://github.com/m-paolino/StopChime/blob/master/LICENSE">
 	<img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT license">
 	</a>
 </p>
