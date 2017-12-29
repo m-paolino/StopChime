@@ -1,5 +1,4 @@
 <h1 align="center">
-	<br>
 	<img src="Icons/bell.png" width=64px alt="StopChime">
 	<br>
 	StopChime
@@ -10,20 +9,24 @@
 	The best way to mute the boot sound of your Mac :hand: :speaker: :no_entry_sign:
 </h4>
 
+<h5 align="center">
+	:point_right: Available for Mac OS X 10.3.x or later :exclamation:
+</h5>
+
 <p align="center">
 	<a href="https://github.com/m-paolino/StopChime/releases/latest">
-	<img src="https://img.shields.io/badge/Latest_release-v2.0.1-brightgreen.svg" alt="Latest release">
+	<img src="https://img.shields.io/github/release/m-paolino/StopChime.svg" alt="Release">
 	</a>
-	<img src="https://img.shields.io/badge/Release_date-December_2017-blue.svg" alt="Release date">
-	<img src="https://img.shields.io/badge/Platform-OS X 10.3.x or later-lightgrey.svg" alt="Platform">
+	<img src="https://img.shields.io/github/release-date/m-paolino/StopChime.svg" alt="Release date">
+	<br>
+	<img src="https://img.shields.io/github/last-commit/m-paolino/StopChime.svg" alt="Last commit">
+	<img src="https://img.shields.io/github/languages/code-size/m-paolino/StopChime.svg" alt="Code size">
+	<br>
+	<img src="https://img.shields.io/github/downloads/m-paolino/StopChime/total.svg" alt="Downloads">
 	<a href="https://github.com/m-paolino/StopChime/blob/master/LICENSE">
-	<img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT license">
+	<img src="https://img.shields.io/github/license/m-paolino/StopChime.svg" alt="License">
 	</a>
 </p>
-
-<h5 align="center">
-	Available for Mac OS X 10.3.x or later :exclamation:
-</h5>
 
 -----
 
@@ -97,7 +100,7 @@ NOTE: It will be necessary to insert your password in order to execute the unins
 
 ## Privacy
 
-No personal information will be saved. :see_no_evil:
+No personal information will be saved :see_no_evil:
 
 ## License
 
