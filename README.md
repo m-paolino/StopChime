@@ -77,7 +77,7 @@ Here you will find instructions to install and (if you want) to uninstall the sc
 
 ### Installation steps:
 
-You can find the download link on the [releases](https://github.com/m-paolino/StopChime/releases/latest) panel or just by clicking [here](https://github.com/m-paolino/StopChime/releases/download/v2.0.1/StopChime.zip).
+You can find the download link on the [releases](https://github.com/m-paolino/StopChime/releases/latest) panel or just by clicking [here](https://github.com/m-paolino/StopChime/releases/download/v3.0/StopChime.zip).
 
 1. **Unzip** the downloaded file.
 2. Open the extracted file **StopChime.app**.
@@ -87,7 +87,7 @@ NOTE: It will be necessary to insert your password in order to execute the insta
 
 ### Uninstallation steps:
 
-You can download the uninstaller [here](https://github.com/m-paolino/StopChime/releases/download/v2.0.1/UNStopChime.zip).
+You can download the uninstaller [here](https://github.com/m-paolino/StopChime/releases/download/v3.0/UNStopChime.zip).
 
 1. **Unzip** the downloaded file.
 2. Open the extracted file **UNStopChime.app**.
@@ -99,7 +99,7 @@ NOTE: It will be necessary to insert your password in order to execute the unins
 
 - [x] v1.0 - first release
 - [x] v2.0 - script bundled with [Platypus](https://www.sveinbjorn.org/platypus)
-- [ ] v3.0 - [Platypus](https://www.sveinbjorn.org/platypus) upgrade
+- [x] v3.0 - [Platypus](https://www.sveinbjorn.org/platypus) upgrade
 
 ## Privacy :see_no_evil:
 
