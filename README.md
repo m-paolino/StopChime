@@ -54,7 +54,7 @@ We understand how frustrating that can be, but no worries!
 
 Putting all technical details aside, **StopChime** automatically silences the boot sound of your  Mac before its shutdown.
 
-NOTE: Please find the installation manual below or by simply clicking [here](#installation-steps).
+NOTE: please find the installation manual below or by simply clicking [here](#installation-steps).
 
 <a name="how"></a>
 ## But how does it work? :sunglasses:
@@ -67,7 +67,9 @@ So with StopChime you can forget about silencing your Mac, and get rid of the bo
 <br>
 Now you can chill and stop worrying if you are in a classroom, library or any other place where silence is golden! :sweat_smile:
 
-NOTE: unfortunately it does not work when external speakers are connected (I am working on it!)
+If you want to see more detailed info, check out the [Wiki](https://github.com/m-paolino/StopChime/wiki) page.
+
+NOTE: unfortunately it does not work when external speakers are connected (I am working on it!) - see more on [Issues](https://github.com/m-paolino/StopChime/issues).
 
 ## Manuals
 
@@ -97,10 +99,11 @@ NOTE: It will be necessary to insert your password in order to execute the unins
 
 - [x] v1.0 - first release
 - [x] v2.0 - script bundled with [Platypus](https://www.sveinbjorn.org/platypus)
+- [ ] v3.0 - [Platypus](https://www.sveinbjorn.org/platypus) upgrade
 
-## Privacy
+## Privacy :see_no_evil:
 
-No personal information will be saved :see_no_evil:
+No personal information will be saved.
 
 ## License
 
