@@ -9,19 +9,16 @@
 	The best way to mute the boot sound of your Mac :hand: :speaker: :no_entry_sign:
 </h4>
 
-<h5 align="center">
-	:point_right: Available for Mac OS X 10.3.x or later :exclamation:
-</h5>
-
 <p align="center">
+	<img src="https://img.shields.io/badge/platform-macOS-lightgrey.svg" alt="Platform">
+ 	<img src="https://img.shields.io/badge/requirements-OS X Panther (10.3) +-lightgrey.svg" alt="System requirements">
+	<br>
 	<a href="https://github.com/m-paolino/StopChime/releases/latest">
 	<img src="https://img.shields.io/github/release/m-paolino/StopChime.svg" alt="Release">
 	</a>
 	<img src="https://img.shields.io/github/release-date/m-paolino/StopChime.svg" alt="Release date">
-	<br>
 	<img src="https://img.shields.io/github/last-commit/m-paolino/StopChime.svg" alt="Last commit">
 	<img src="https://img.shields.io/github/languages/code-size/m-paolino/StopChime.svg" alt="Code size">
-	<br>
 	<img src="https://img.shields.io/github/downloads/m-paolino/StopChime/total.svg" alt="Downloads">
 	<a href="https://github.com/m-paolino/StopChime/blob/master/LICENSE">
 	<img src="https://img.shields.io/github/license/m-paolino/StopChime.svg" alt="License">
@@ -95,16 +92,19 @@ You can download the uninstaller [here](https://github.com/m-paolino/StopChime/r
 
 NOTE: It will be necessary to insert your password in order to execute the uninstaller script with administrative privileges.
 
+<a name="milestones"></a>
 ## Milestones
 
 - [x] v1.0 - first release
 - [x] v2.0 - script bundled with [Platypus](https://www.sveinbjorn.org/platypus)
 - [x] v3.0 - [Platypus](https://www.sveinbjorn.org/platypus) upgrade
 
+<a name="privacy"></a>
 ## Privacy :see_no_evil:
 
 No personal information will be saved.
 
+<a name="license"></a>
 ## License
 
 This project is licensed under the terms of the [MIT license <sup>&copy;</sup>](LICENSE)
